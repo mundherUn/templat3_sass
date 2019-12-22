@@ -1,10 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .container {
   width: 85%;
   margin: auto; }
-
-* {
-  padding: 0;
-  margin: 0; }
 
 body {
   font-family: sans-serif; }

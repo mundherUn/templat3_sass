@@ -6,3 +6,10 @@
     height: 100%;
     // z-index: 1;
 }
+
+@mixin prefexes($pro, $val, $prefex:()) {
+    @each $v in $prefex {
+        #{'-'+$v+'-'+$pro}: $val
+    }
+    #{$pro}:$val;
+}
